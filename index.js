@@ -1,9 +1,9 @@
 function calculateBMI() {
-  var weight = document.getElementById("weight").innerHTML;
+  var weight = document.getElementById("weight").value;
   var weightFloat = parseFloat(weight);
-  var feet = document.getElementById("feet").innerHTML;
+  var feet = document.getElementById("feet").value;
   var feetInt = parseInt(feet);
-  var inches = document.getElementById("inches").innerHTML;
+  var inches = document.getElementById("inches").value;
   var inchesInt = parseInt(inches);
   var calculatedHeight = (feetInt * 12) + inchesInt;
   var calculatedBMI = (weightFloat / (calculatedHeight ** 2)) * 703;
@@ -11,4 +11,4 @@ function calculateBMI() {
   document.getElementById("calculateBMI").innerHTML = solution;
 };
 
-calculateBMI();
+//calculateBMI();
