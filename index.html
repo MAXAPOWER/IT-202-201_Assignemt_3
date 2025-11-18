@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IT202 - Max's Assignment 3 Submission</title>
+</head>
+  
+<body>
+  <br><br>
+  <h1 color="blue">Problem #1</h2>
+  <h2>Consonants and Vowels Counter</h2>
+  <form>
+    <label for="myFile">Select a file:</label>
+    <input type="file" id="myFile" name="myFile" accept=".txt"><br><br>
+    <input type="button" id="counterBtn" value="Submit">
+  </form>
+  <h3>Solution:</h3>
+  <p id="checkLetters"></p>
+  <br><br>
+  <hr>
+  
+  <br><br>
+  <h1 color="green">Problem #2</h1>
+  <h2>Calculate BMI</h2>
+  <form>
+    <label for="inches">Enter measurements:</label>
+    <input type="number" id="weight" name="weight" placeholder="Weight (in pounds)" required min="0" max="999"/>
+    <input type="number" id="feet" name="feet" placeholder="Feet" required min="0" max="11"/>
+    <input type="number" id="inches" name="inches" placeholder="Inches" required min="0" max="11"/>
+    <input type="button" value="Calculate" onclick="calculateBMI()">
+  </form>
+  <h3>Solution:</h3>
+  <p id="calculateBMI"></p>
+  <br><br>
+  <hr>
+  
+  <script src="index_test.js"></script>
+</body>
+</html>
